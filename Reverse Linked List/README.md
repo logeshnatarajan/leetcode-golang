@@ -8,3 +8,4 @@ Runtime: 0 ms
 
 Memory Usage: 2.6 MB
 
+Your runtime beats 100 % of golang submissions.
