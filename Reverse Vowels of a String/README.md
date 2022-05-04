@@ -1,6 +1,6 @@
 # leetcode - golang
 
-simple solution anyone can understand 
+<simple solution anyone can understand>
 
 Success
 
