@@ -30,3 +30,13 @@ func isConstructedSubstr(str string, subStr string) bool {
 
 // second soluton which is vere simple but not efficient but use this example to understand
 
+func repeatedSubstringPattern(s string) bool{
+    for i:=1;i<=len(s)/2;i++{
+        v:=s[:i]
+        if s == (strings.Repeat(v,len(s)/(i))){
+            return true
+        }
+    
+    }
+    return false
+}
