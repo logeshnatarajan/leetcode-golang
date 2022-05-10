@@ -27,3 +27,6 @@ func isConstructedSubstr(str string, subStr string) bool {
 	}
 	return isConstructed
 }
+
+// second soluton which is vere simple but not efficient but use this example to understand
+
