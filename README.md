@@ -2,4 +2,4 @@
 
 solutions for leetcode problems in golang
 
-easy to 
+easy to understand 
