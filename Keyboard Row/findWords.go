@@ -1,3 +1,5 @@
+// looks big but try to follow along its easy to understand
+
 func findWords(words []string) []string {
     top:="qwertyuiop"
     top+=strings.ToUpper(top)
