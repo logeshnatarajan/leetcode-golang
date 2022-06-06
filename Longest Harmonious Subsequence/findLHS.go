@@ -1,23 +1,16 @@
 func findLHS(nums []int) int {
-  sort.Ints(nums)
-  res := 0
-  i, j := 0, 0
-  for j < len(nums) {
-    if nums[j]-nums[i] > 1 {
-      for nums[j] - nums[i] > 1 {
-        i++
-      }
-    } else if nums[i] != nums[j] {
-      res = max(res, j-i+1)
-    }
-    j++
-  }
-  return res
-}
+    ret := 0
+    mp := make(map[int]int, len(nums))   
 
-func max(a, b int) int {
-  if a > b {
-    return a
-  }
-  return b
+    for _, n := range nums {
+        mp[n]++
+    }
+    
+    for k, v := range mp {
+        if mp[k+1] > 0 && v + mp[k+1] > ret {
+            ret = v + mp[k+1]
+        }
+    }
+    
+    return ret
 }
