@@ -20,7 +20,7 @@ func validPalindrome(s string) bool {
 }
 
 
-// fastest solution 
+// fastest and effective solution 
 
 func validPalindrome(s string) bool {
     left, right, valid := isPalindrome(s, 0, len(s) - 1)
