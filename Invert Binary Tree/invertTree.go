@@ -3,7 +3,7 @@
  * type TreeNode struct {
  *     Val int
  *     Left *TreeNode
- *     Right *TreeNodes
+ *     Right *TreeNodess
  * }
  */
 func invertTree(root *TreeNode) *TreeNode {    
