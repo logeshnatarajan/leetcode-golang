@@ -14,7 +14,6 @@ func lengthOfLongestSubstring(s string) int {
 		charIndexMap[s[end]] = end
 	}
 	result = max(result, n-start)
-
 	return result
 }
 func max(n,m int)int{
