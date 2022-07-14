@@ -4,6 +4,6 @@
 
 Success
 
-Runtime: 16 ms, faster than 77.41% of Go online submissions for Median of Two Sorted Arrays.
+Runtime: 13 ms, faster than 85.56% of Go online submissions for Median of Two Sorted Arrays.
 
-Memory Usage: 5 MB, less than 96.63% of Go online submissions for Median of Two Sorted Arrays.
+Memory Usage: 5.2 MB, less than 86.91% of Go online submissions for Median of Two Sorted Arrays.
