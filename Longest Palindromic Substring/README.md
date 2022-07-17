@@ -2,6 +2,6 @@
 
 Success
 
-Runtime: 13 ms, faster than 62.34% of Go online submissions for Longest Palindromic Substring.
+Runtime: 8 ms, faster than 82.57% of Go online submissions for Longest Palindromic Substring.
 
-Memory Usage: 2.6 MB, less than 79.39% of Go online submissions for Longest Palindromic Substring.
+Memory Usage: 2.7 MB, less than 79.39% of Go online submissions for Longest Palindromic Substring.
