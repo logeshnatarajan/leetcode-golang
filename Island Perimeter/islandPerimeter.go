@@ -1,5 +1,5 @@
 func islandPerimeter(grid [][]int) int {
-    var res int
+    var ress int
     dirs := []int{1, 0, -1, 0, 1}
     rln:=len(grid)
     cln:=len(grid[0])
