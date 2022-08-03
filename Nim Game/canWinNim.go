@@ -4,4 +4,4 @@ func canWinNim(n int) bool {
     }
     return true
 }
-// simple and solution
+// simple and effective solution
