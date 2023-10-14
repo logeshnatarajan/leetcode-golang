@@ -12,5 +12,6 @@ func findContentChildren(g []int, s []int) int {
             j+=1
         }
     }
+    fmt.Println("Hi")
     return count
 }
