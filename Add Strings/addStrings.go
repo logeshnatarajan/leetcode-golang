@@ -16,5 +16,6 @@ func addStrings(num1 string, num2 string) string {
 	if (sum) != byte(0) {
 		str1 = append([]byte{'1'}, str1...)
 	}
+	fmt.Println("Hi")
 	return string(str1)
 }
