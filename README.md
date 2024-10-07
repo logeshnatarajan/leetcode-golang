@@ -1,7 +1,7 @@
 # leetcode-golang
 
-solutions for leetcode problems in golang
+solutions for leetcode problems in golang.
 
-easy to understand 
+easy to understand.
 
 Efficient solutions
